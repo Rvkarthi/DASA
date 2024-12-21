@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Gabarito:wght@400..900&display=swap');
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: #f9fae8 !important;    
+    font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.title{
+    
+    font-family: "Gabarito", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+form{   
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+form input{
+    letter-spacing: 3px;
+    font-family: "Gabarito", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    background-color: #fae3dc;
+    font-size: large;
+    padding: 1%;
+    border-radius: 7px;
+}
+
+form input:focus{
+    color: white;
+    background-color: #fc9f9a;
+}
+
+form label{
+    color: #0b1703;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+form button a{
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    background-color: #fc9f9a;
+    text-decoration: none;
+
+}
+
+button {
+    background-color: #fc9f9a !important;
+}
+
+#output
+{
+    font-family: "Gabarito", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    padding: 5%;
+    background-color: #fae3dc;
+    border-radius: 15px;
+}
