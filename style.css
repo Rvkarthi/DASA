@@ -34,6 +34,7 @@ form input{
     background-color: #fae3dc;
     font-size: large;
     padding: 1%;
+    padding-left: 20px;
     border: 1px solid black;
     border-radius: 7px;
 }
@@ -54,13 +55,18 @@ form button a{
     color: white;
     font-weight: 500;
     font-size: 25px;
-    background-color: #fc9f9a;
     text-decoration: none;
 
 }
 
 button {
-    background-color: #fc9f9a !important;
+    background-color: #ed8e89 !important;
+}
+
+#reset{
+    letter-spacing: 2px;
+    background-color: #fc9f9a;
+    border: 2px solid #fc9f9a;
 }
 
 #output

@@ -18,30 +18,35 @@
       <!-- inputs -->
       <form onsubmit="return false;">
         <label class="w3-animate-top">Parama Nalikai</label>
-        <input placeholder="---" class="w3-animate-top" required type="number" id="parama_nalikai" />
+        <input placeholder="  ---" class="w3-animate-top" required min="0" max="100" type="number" id="parama_nalikai" />
 
         <label class="w3-animate-top">Parama Vinalikai</label>
-        <input placeholder="---" class="w3-animate-top" required type="number" id="pvinaligai" />
+        <input placeholder="  ---" class="w3-animate-top" required min="0" max="100" type="number" id="pvinaligai" />
         <hr class="w3-animate-top"/>
         <label class="w3-animate-top" class="mt-5">Cellu Nalikai</label>
-        <input placeholder="---" class="w3-animate-top" required type="number" id="cellu_nalikai" />
+        <input placeholder="  ---" class="w3-animate-top" required min="0" max="100" type="number" id="cellu_nalikai" />
 
         <label class="w3-animate-top">Cellu Vinalikai</label>
-        <input placeholder="---" class="w3-animate-top" required type="number" id="cvinaligai" />
+        <input placeholder="  ---" class="w3-animate-top" required min="0" max="100" type="number" id="cvinaligai" />
         <hr class="w3-animate-top"/>
-        <label class="w3-animate-top" class="mt-5">DASA Year</label>
-        <input placeholder="---" class="w3-animate-top" required type="number" id="dasa_year" />
+        <label class="w3-animate-top" class="my-5">DASA Year</label>
+        <input placeholder="  ---" class="w3-animate-top" required min="0" max="100" type="number" id="dasa_year" />
 
-        <button type="submit" class="btn w3-animate-top my-4" onclick="result()">
+        <button type="submit" class="btn w3-animate-top my-5" onclick="(result())">
           <a href="#output">FIND</a>
         </button>
       </form>
+
+      
       <!-- inputs end-->
 
       <!-- outputs -->
       <div class="my-5">
         <h1 class="mb-5 w3-animate-top">Results</h1>
         <h3 id="output">click find button above ⬆️</h3>
+        <a id="reset" href="" class="btn w3-animate-top " >
+          reset 🔁
+        </a>
       </div>
 
       <!-- outputs -->
